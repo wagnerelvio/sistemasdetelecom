@@ -236,3 +236,59 @@ O exemplo mostra somente a **geração e a visualização dos sinais modulados**
 ## Aplicação didática
 
 A atividade permite relacionar a formulação matemática à forma de onda observada no tempo, comparar AM e FM e investigar como a escolha dos parâmetros interfere no comportamento da portadora.
+
+
+
+
+## Code 0002
+
+## Análise de Sinais nos Domínios do Tempo e da Frequência (FFT)
+
+### Descrição
+
+Este código em Python permite gerar e analisar um sinal senoidal nos domínios do tempo e da frequência, utilizando as bibliotecas **NumPy** e **Matplotlib**. A simulação foi desenvolvida para execução no [Google Colab](https://colab.research.google.com/), sem necessidade de instalação local.
+
+O programa gera um sinal senoidal com amplitude de 2 unidades e frequência de 10 Hz, utilizando uma frequência de amostragem de 1000 Hz e duração de 1 segundo.
+
+Inicialmente, o sinal é representado graficamente no domínio do tempo, permitindo observar suas oscilações, amplitude e período. Em seguida, aplica-se a **Transformada Rápida de Fourier (FFT)** para obter o espectro de frequência e identificar a componente predominante do sinal.
+
+### Parâmetros da Simulação
+
+| Parâmetro | Valor |
+|---|---|
+| Amplitude do sinal | 2 |
+| Frequência do sinal | 10 Hz |
+| Frequência de amostragem | 1000 Hz |
+| Duração da simulação | 1 segundo |
+| Ferramentas | Python, NumPy e Matplotlib |
+| Ambiente de execução | Google Colab |
+
+### Representação Matemática
+
+O sinal senoidal é descrito pela equação:
+
+\[
+s(t) = 2\sin(2\pi 10t)
+\]
+
+A aplicação da FFT permite identificar a frequência predominante e estimar sua amplitude.
+
+### Resultados Esperados
+
+O programa gera dois gráficos:
+
+1. **Domínio do tempo:** apresenta a forma de onda senoidal e suas oscilações ao longo do tempo.
+2. **Domínio da frequência:** apresenta o espectro de amplitude, destacando um pico em 10 Hz.
+
+Ao final, o programa identifica automaticamente os valores esperados:
+
+- **Amplitude:** 2,0
+- **Frequência:** 10,0 Hz
+
+### Aplicação Didática
+
+A simulação permite compreender a relação entre os domínios do tempo e da frequência, demonstrando como a FFT pode identificar componentes espectrais de um sinal.
+
+O experimento complementa o estudo das modulações AM e FM, fornecendo uma base para analisar as frequências presentes em sinais modulados e suas respectivas bandas laterais.
+
+**Ambiente utilizado:** [Google Colab](https://colab.research.google.com/)
