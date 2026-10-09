@@ -419,3 +419,67 @@ Demonstrar, de forma didática, o comportamento de sinais senoidais em diferente
 
 A simulação contribui para o estudo dos fundamentos de sinais e sistemas, eletrônica e telecomunicações.
 
+
+## 5. Descrição do Code04bfrequencias.py
+
+
+## Simulação de Sinais Senoidais Sobrepostos em Diferentes Frequências
+
+### Descrição
+
+O código em Python realiza a **geração e representação gráfica de quatro sinais senoidais com diferentes frequências**, utilizando as bibliotecas **NumPy** e **Matplotlib**.
+
+A simulação apresenta sinais de **10 Hz, 100 Hz, 1 kHz e 10 kHz**, todos com amplitude constante igual a 1, sobrepostos em um único gráfico. A janela de tempo utilizada é de **0,1 segundo (100 ms)**, permitindo comparar o comportamento das ondas no domínio do tempo.
+
+### Principais funcionalidades
+
+- Geração de quatro sinais senoidais.
+- Representação dos sinais sobrepostos em um único gráfico.
+- Identificação das frequências por cores e legendas.
+- Comparação entre frequência, período e quantidade de oscilações.
+- Visualização do comportamento de sinais de diferentes frequências.
+
+### Bibliotecas utilizadas
+
+- **NumPy:** geração dos sinais senoidais e cálculos matemáticos.
+- **Matplotlib:** construção e visualização do gráfico.
+
+### Objetivo
+
+Demonstrar visualmente a relação entre frequência e período dos sinais senoidais, evidenciando que frequências maiores apresentam períodos menores e maior quantidade de oscilações em um mesmo intervalo de tempo. A simulação contribui para o estudo dos fundamentos de sinais e sistemas de telecomunicações.
+
+
+### Atividade Prática: Alteração dos Parâmetros da Simulação
+
+Os alunos deverão modificar os parâmetros de **frequência dos sinais** e **janela de tempo** diretamente no código Python, executando novas simulações para observar as alterações nos gráficos.
+
+**a. Alteração das frequências**
+
+Modificar os valores da lista `frequencias`, mantendo os nomes correspondentes na lista `nomes`.
+
+```python
+frequencias = [10, 100, 1000, 10000]
+nomes = ["10 Hz", "100 Hz", "1000 Hz", "10000 Hz"]
+```
+
+**b. Alteração da janela de tempo**
+
+Modificar o intervalo de tempo utilizado na geração dos sinais.
+
+```python
+t = np.linspace(0, 0.1, 5000)
+```
+
+O valor `0.1` representa a duração de 0,1 segundo, enquanto `5000` corresponde à quantidade de pontos utilizados na simulação.
+
+**c. Análise dos resultados**
+
+Após executar as simulações, os alunos deverão observar:
+
+- Como o aumento da frequência modifica o número de oscilações.
+- Como a redução da frequência aumenta o período do sinal.
+- Como a alteração da janela de tempo influencia a visualização das ondas.
+- Como a quantidade de amostras interfere na representação gráfica dos sinais.
+
+**Objetivo da atividade:** compreender experimentalmente a relação entre frequência, período e tempo, utilizando simulações computacionais em Python aplicadas ao estudo de sinais e sistemas de telecomunicações.
+
