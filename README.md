@@ -1,3 +1,31 @@
+## Importância da Modulação nos Sistemas de Telecomunicações
+
+A **modulação** é uma técnica fundamental nos sistemas de telecomunicações, pois permite transmitir informações, como voz, música e dados, por meio de ondas eletromagnéticas. Nesse processo, um sinal de informação modifica determinadas características de uma onda portadora de alta frequência, possibilitando sua transmissão por sistemas de comunicação.
+
+A modulação contribui para a transmissão de sinais a longas distâncias, o uso eficiente do espectro de frequências e a redução de interferências entre diferentes canais de comunicação.
+
+### Principais elementos utilizados
+
+**a) Sinal de voz (sinal modulante):** representa a informação que será transmitida, como fala ou música. Normalmente, é convertido em um sinal elétrico por meio de um microfone.
+
+**b) Onda portadora:** sinal de alta frequência utilizado para transportar a informação. Suas características, como amplitude ou frequência, são modificadas durante a modulação.
+
+**c) Modulação em Amplitude (AM):** técnica na qual a amplitude da portadora varia conforme o sinal modulante, mantendo sua frequência constante. É utilizada principalmente em sistemas de radiodifusão AM.
+
+**d) Modulação em Frequência (FM):** técnica na qual a frequência instantânea da portadora varia de acordo com o sinal modulante, mantendo sua amplitude constante. Apresenta maior resistência a ruídos de amplitude e é amplamente utilizada na radiodifusão FM.
+
+### Aplicações práticas
+
+- **Radiodifusão AM:** transmissão de programas de rádio, notícias e informações.
+- **Radiodifusão FM:** transmissão de músicas, programas de rádio e conteúdos de áudio com maior fidelidade.
+- **Comunicações aeronáuticas:** utilização de AM nas comunicações de voz entre pilotos e controladores de tráfego aéreo.
+- **Radiocomunicação:** utilização de FM em diferentes sistemas de comunicação por rádio.
+- **Televisão e comunicações digitais:** utilização de outras técnicas de modulação para transmitir áudio, vídeo e dados.
+
+### Objetivo do estudo
+
+Compreender a importância da modulação nos sistemas de telecomunicações, identificando as funções do sinal modulante e da onda portadora, além de analisar as diferenças entre as técnicas AM e FM e suas principais aplicações.
+
 ## Infográfico: Modulação AM e FM
 
 ![Infográfico sobre Modulação AM e FM](./imagens/modulacao-am-fm.png)
