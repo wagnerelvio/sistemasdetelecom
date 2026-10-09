@@ -250,8 +250,20 @@ A atividade permite relacionar a formulação matemática à forma de onda obser
 
 
 
+## 2. Descrição do Code-02.py: Modulação em Amplitude (AM)
 
-## Code 0002
+O código realiza uma simulação da modulação em amplitude (AM), utilizando um sinal modulante de 100 Hz e uma onda portadora de 2 kHz.
+
+A modulação utiliza um índice de 80%, permitindo observar a variação da amplitude da portadora conforme o sinal de informação.
+
+**Funcionalidades:**
+- Geração do sinal modulante.
+- Geração da onda portadora.
+- Simulação do sinal modulado em AM.
+- Representação gráfica das envoltórias do sinal AM.
+
+**Bibliotecas utilizadas:** NumPy e Matplotlib.
+
 
 ## Análise de Sinais nos Domínios do Tempo e da Frequência (FFT)
 
