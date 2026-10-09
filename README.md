@@ -317,8 +317,22 @@ O experimento complementa o estudo das modulações AM e FM, fornecendo uma base
 **Ambiente utilizado:** [Google Colab](https://colab.research.google.com/)
 
 
+## 3. Descrição do Code-03.py: Modulação em Frequência (FM)
 
-## Code codeam
+O código realiza a simulação da modulação em frequência (FM), demonstrando como a frequência instantânea da portadora varia de acordo com o sinal modulante, mantendo sua amplitude constante.
+
+**Funcionalidades:**
+- Geração do sinal de informação.
+- Geração da onda portadora.
+- Simulação da modulação FM.
+- Visualização gráfica do sinal modulado.
+
+**Bibliotecas utilizadas:** NumPy e Matplotlib.
+
+## Objetivo do Repositório
+
+Disponibilizar exemplos práticos em Python para auxiliar no ensino e na compreensão dos conceitos fundamentais de sinais e sistemas de telecomunicações.
+ 
 
 ## Simulação de Modulação em Amplitude (AM) com Python
 
