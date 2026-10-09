@@ -292,3 +292,49 @@ A simulação permite compreender a relação entre os domínios do tempo e da f
 O experimento complementa o estudo das modulações AM e FM, fornecendo uma base para analisar as frequências presentes em sinais modulados e suas respectivas bandas laterais.
 
 **Ambiente utilizado:** [Google Colab](https://colab.research.google.com/)
+
+
+
+## Code codeam
+
+## Simulação de Modulação em Amplitude (AM) com Python
+
+### Descrição
+
+Este projeto apresenta uma simulação da **Modulação em Amplitude (AM)** utilizando a linguagem Python e as bibliotecas **NumPy** e **Matplotlib**.
+
+O código gera um sinal de informação (modulante) com frequência de **100 Hz** e uma onda portadora de **2 kHz**. Em seguida, realiza a modulação AM com índice de modulação de **80%**, permitindo observar como a amplitude da portadora varia de acordo com o sinal de informação, mantendo sua frequência constante.
+
+### Parâmetros da simulação
+
+| Parâmetro | Valor |
+|---|---|
+| Frequência do sinal modulante | 100 Hz |
+| Frequência da portadora | 2 kHz |
+| Amplitude do sinal modulante | 1 |
+| Amplitude da portadora | 1 |
+| Índice de modulação | 80% |
+| Frequência de amostragem | 100 kHz |
+| Duração da simulação | 30 ms |
+
+### Representação gráfica
+
+O programa apresenta três gráficos:
+
+1. **Sinal modulante:** representa a informação original, com frequência de 100 Hz.
+2. **Sinal da portadora:** apresenta uma onda senoidal de 2 kHz, responsável pelo transporte da informação.
+3. **Sinal modulado em AM:** demonstra a variação da amplitude da portadora e suas envoltórias superior e inferior, que acompanham o sinal modulante.
+
+### Bibliotecas utilizadas
+
+- **NumPy:** geração dos sinais senoidais e realização dos cálculos matemáticos.
+- **Matplotlib:** construção e visualização dos gráficos dos sinais.
+
+### Objetivo
+
+Demonstrar, de forma didática, o funcionamento da modulação em amplitude (AM), permitindo compreender a relação entre o sinal modulante, a onda portadora e o sinal modulado.
+
+A simulação também possibilita analisar a influência do índice de modulação sobre a amplitude do sinal transmitido, contribuindo para o estudo dos princípios fundamentais dos sistemas de telecomunicações.
+
+**Ambiente utilizado:** [Google Colab](https://colab.research.google.com/)
+
