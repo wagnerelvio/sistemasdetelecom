@@ -375,3 +375,47 @@ A simulação também possibilita analisar a influência do índice de modulaç�
 
 **Ambiente utilizado:** [Google Colab](https://colab.research.google.com/)
 
+## 4. Descrição do Code04frequencias.py: 
+
+### Simulação de Sinais Senoidais em Diferentes Frequências
+
+### Descrição
+
+Este código em Python realiza a **geração e representação gráfica de sinais senoidais em diferentes frequências**, utilizando as bibliotecas **NumPy** e **Matplotlib**.
+
+O programa simula sinais com frequências de **10 Hz, 100 Hz, 1 kHz, 10 kHz, 10 MHz e 100 MHz**, mantendo a amplitude constante em 1.
+
+Para cada frequência, são apresentados três períodos completos do sinal, permitindo observar a relação entre frequência, período e comportamento da onda no domínio do tempo.
+
+### Gráficos gerados
+
+O programa gera **6 gráficos individuais**, correspondentes às seguintes frequências:
+
+1. **10 Hz:** sinal senoidal de baixa frequência.
+2. **100 Hz:** sinal com frequência dez vezes maior que o anterior.
+3. **1 kHz:** sinal senoidal com frequência de 1.000 Hz.
+4. **10 kHz:** sinal com frequência de 10.000 Hz.
+5. **10 MHz:** sinal de alta frequência, com 10 milhões de ciclos por segundo.
+6. **100 MHz:** sinal de radiofrequência, com 100 milhões de ciclos por segundo.
+
+Cada gráfico apresenta três períodos completos, com o eixo horizontal representando o tempo em segundos e o eixo vertical indicando a amplitude do sinal.
+
+### Principais funcionalidades
+
+- Geração de sinais senoidais com diferentes frequências.
+- Cálculo automático do período de cada sinal.
+- Representação gráfica de três períodos completos.
+- Visualização da relação entre frequência e período.
+- Exibição dos valores de frequência e período no terminal.
+
+### Bibliotecas utilizadas
+
+- **NumPy:** cálculos matemáticos e geração dos sinais senoidais.
+- **Matplotlib:** construção e apresentação dos gráficos.
+
+### Objetivo
+
+Demonstrar, de forma didática, o comportamento de sinais senoidais em diferentes faixas de frequência, evidenciando que o aumento da frequência provoca a redução do período do sinal.
+
+A simulação contribui para o estudo dos fundamentos de sinais e sistemas, eletrônica e telecomunicações.
+
