@@ -41,7 +41,18 @@ Se executar o código fora do Google Colab e as bibliotecas não estiverem insta
 pip install numpy matplotlib
 ```
 
-## Código da simulação
+
+## 1. Descrição do Code-01.py: Análise de Sinais
+
+O código realiza a geração e representação gráfica de sinais senoidais, permitindo observar características como amplitude, frequência e período.
+
+**Funcionalidades:**
+- Geração de sinais senoidais.
+- Representação dos sinais no domínio do tempo.
+- Visualização da amplitude e da frequência.
+
+**Bibliotecas utilizadas:** NumPy e Matplotlib.
+
 
 Salve o exemplo abaixo como `modulacao_am_fm.py`:
 
