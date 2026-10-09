@@ -1,3 +1,40 @@
+## Infográfico: Modulação AM e FM
+
+![Infográfico sobre Modulação AM e FM](./imagens/modulacao-am-fm.png)
+
+### Descrição dos itens
+
+**a) Sinal de voz**  
+O sinal de voz é o **sinal de informação** ou **sinal modulante**. Ele possui baixa frequência em comparação com a portadora e carrega a mensagem que se deseja transmitir, como fala, música ou áudio em geral.
+
+**b) Portadora**  
+A portadora é uma onda senoidal de **alta frequência**, utilizada para transportar a informação a maiores distâncias. Sozinha, ela não contém a mensagem, mas serve como base para o processo de modulação.
+
+**c) Modulação em Amplitude (AM)**  
+Na modulação AM, a **amplitude da portadora varia** de acordo com o sinal de voz, enquanto a frequência permanece aproximadamente constante. A envoltória do sinal AM acompanha a forma do sinal modulante.
+
+**d) Modulação em Frequência (FM)**  
+Na modulação FM, a **frequência da portadora varia** de acordo com o sinal de voz, enquanto sua amplitude permanece praticamente constante. Esse tipo de modulação apresenta maior imunidade a ruídos e melhor qualidade de áudio.
+
+### Resumo
+
+O processo de modulação permite combinar o **sinal de voz** com uma **portadora**, gerando um sinal transmitido em **AM** ou **FM**. Em AM, varia-se a amplitude; em FM, varia-se a frequência.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Simulação de Modulação AM e FM em Python
 
 Este projeto apresenta uma simulação didática de **modulação em amplitude (AM)** e **modulação em frequência (FM)**. O programa gera um sinal senoidal de áudio, uma portadora e os respectivos sinais modulados, exibindo quatro gráficos para facilitar a comparação.
